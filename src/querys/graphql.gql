@@ -1,0 +1,9 @@
+
+type User {
+    user: String,
+    pass: String
+}
+
+type Query {
+    getUser(user: String): User
+}
